@@ -1,0 +1,25 @@
+# Secrets / tokens
+.env
+.env.local
+.ms_token_cache.json
+*.token
+*.cache
+
+# Scan output (may contain personal email data)
+junk_scan_results.json
+*_scan_results.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
