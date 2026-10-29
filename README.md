@@ -1,5 +1,7 @@
 # Email Junk Cleaner
 
+![CI](https://github.com/maldonador8/emailjunkcleaner/actions/workflows/ci.yml/badge.svg)
+
 Python CLI that connects to your Outlook mailbox via Microsoft Graph API and bulk-cleans junk/inbox.
 
 ## What it does
@@ -19,7 +21,7 @@ Python CLI that connects to your Outlook mailbox via Microsoft Graph API and bul
 ### 1. Install dependencies
 
 ```bash
-pip install msal requests python-dotenv
+pip install -r requirements.txt
 ```
 
 ### 2. Register an Azure app (each user needs their own)
